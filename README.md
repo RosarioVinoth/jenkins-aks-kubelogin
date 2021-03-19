@@ -32,3 +32,7 @@ install [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/#
 ## Test
 
 1.Select the job created above and click build now.
+
+# References
+[kubelogin1](https://github.com/Azure/kubelogin)
+[kubelogin2](https://stackoverflow.com/questions/54004007/azure-devop-pipelines-authentication-to-aks-with-azure-ad-rbac-configured/54115121#54115121)
