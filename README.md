@@ -17,7 +17,7 @@ install [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/#
 
 > az login -t <tenant_id>\
 > az account set -s <subscription_id>\
-> az aks get-credentials --resource-group <rg> --name <aks_name> --file <kubeconfig.aks_name>\
+> az aks get-credentials --resource-group <rg> --name <aks_name> --file <kubeconfig.aks_name>
 
 Create Secret file by uploading the kubeconfig created in above setup
 
