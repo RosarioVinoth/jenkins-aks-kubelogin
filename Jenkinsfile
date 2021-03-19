@@ -29,7 +29,9 @@ pipeline {
 				export AAD_SERVICE_PRINCIPAL_CLIENT_ID="\$AZURE_CLIENT_ID"
 				export AAD_SERVICE_PRINCIPAL_CLIENT_SECRET="\$AZURE_CLIENT_SECRET"
 				
-				kubectl get pods --all-namespaces
+				kubectl create namespace sampleapp --dry-run=client -o yaml | kubectl apply -f -
+				kubectl get ns
+				kubectl apply -n sampleapp -f sample-internal-app.yaml
 			"""
 		
       }
