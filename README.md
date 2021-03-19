@@ -20,8 +20,8 @@ install [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/#
 2.Create secert file credential (kubeconfig)\
     *kubeconfig have to be populated as shown below and id of the credential need to added to the Jenkinsfile*
     
-    > az login -t <tenant_id>\
-    > az account set -s <subscription_id>\
+    > az login -t <tenant_id>
+    > az account set -s <subscription_id>
     > az aks get-credentials --resource-group <rg> --name <aks_name> --file <kubeconfig.aks_name>
 
 ## Configure Jenkins
