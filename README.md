@@ -12,7 +12,7 @@ install [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/#
 
 ### Create Credentials
 
-1.Create Microsoft Azure Service Principle credentials - client id and client secret
+1.Create Microsoft Azure Service Principle credentials (sp_client_id and sp_client_secret)\
 2.Create secert file (kubeconfig)
 
 > az login -t <tenant_id>\
