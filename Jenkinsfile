@@ -8,7 +8,8 @@ pipeline {
 		steps{
 		
 			sh """
-				rm -rf *
+				rm -rf kubelogin-linux-amd64.zip
+				rm -rf bin
 			"""
 		}
     }
